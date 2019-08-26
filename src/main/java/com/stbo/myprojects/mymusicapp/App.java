@@ -1,13 +1,13 @@
 package com.stbo.myprojects.mymusicapp;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+	public static void main(String[] args) {
+		
+		
+		MusicPieceDatabase myPlaylist = new MusicPieceDatabase();
+		
+		myPlaylist.addMusicPiece(new MusicPiece(3.50, "Über den Wolken","Reinhard May"));
+		myPlaylist.addMusicPiece(new MusicPiece(4.20, "Lemon Tree", "Fool's Garden"));
+
+	}
 }
