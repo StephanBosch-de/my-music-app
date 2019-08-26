@@ -6,8 +6,11 @@ public class App {
 		
 		MusicPieceDatabase myPlaylist = new MusicPieceDatabase();
 		
-		myPlaylist.addMusicPiece(new MusicPiece(3.50, "Über den Wolken","Reinhard May"));
+		myPlaylist.addMusicPiece(new MusicPiece(3.50, "Ueber den Wolken","Reinhard May"));
 		myPlaylist.addMusicPiece(new MusicPiece(4.20, "Lemon Tree", "Fool's Garden"));
+		
+		myPlaylist.printMusicPieceDatabase();
 
+		
 	}
 }

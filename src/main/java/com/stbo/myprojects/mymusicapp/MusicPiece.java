@@ -1,5 +1,8 @@
 package com.stbo.myprojects.mymusicapp;
 
+import lombok.Data;
+
+@Data
 public class MusicPiece {
 	
 	// Defining the attributes 
